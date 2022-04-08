@@ -216,7 +216,7 @@
 
     <!-- FIRST FOLD
     ================================================== -->
-    <section class="pt-8 pt-md-8 pb-10 pb-md-12 bg-light">
+    <section class="pt-8 pt-md-10 pb-4 pb-md-0 bg-light">
 
       <!-- Content heading -->
       <div class="container">
@@ -225,82 +225,38 @@
           <div class="col-12 col-md-11 text-center">
             
             <!-- Heading -->
-            <h1 class="display-2 font-weight-bold mb-4">
-            Pull <span class="text-primary">fresh people and company data </span> with Proxycurl API
+            <h1 class="display-1 font-weight-bold mb-6">
+              <span class="text-primary">Build data-driven applications </span> <span>on people and companies </span>
             </h1>
-            <h4 class="text-muted">Pull fresh and processed data without worrying about scaling a web scraping team, cleaning data, or compliance, so you can focus on building data-driven applications.
-            </h4>
+            <h2 class="text-muted">Use proxycurl API to fetch fresh comprehensive data on people and companies built from public and ethical source data.
+            </h2>
           </div>
         </div> <!-- / .row -->
       </div> <!-- container heading--> 
+      
+      <!-- illustration-->
+      <div class="container">
+        <div class="row justify-content-center pt-0 pt-md-6 pb-6 pb-md-12">
+        <div class="col-12 col-md-8">  
+          <div class="card-body">
+            <img class="card-img" src="assets/img/illustrations/first_fold_illustration.png" alt="Card image cap">
+          </div>
+        </div>
+        </div>
+      </div>
 
     </section>
     
     <section class="mt-n8 border-bottom ">
-      <div class="container mb-8 mb-xl-10">
-        <div class="row justify-content-center mb-0 mb-md-4">
+      <div class="container-fluid mb-8 mb-xl-10">
+        <div class="row justify-content-center mb-0 mb-md-8 mx-0 mx-md-10">
           
           <!-- Card 1-->          
-          <div class="col-12 col-md-5 col-lg-4 col-xl-6 mb-8 mb-lg-8 mb-md-8">
-            <div class="card accordion card-responsive shadow-light-lg lift lift-lg">
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-8 mb-md-8">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion">
               <div class="card-body">
                     <!-- content -->
-                    <h3 class="font-weight-bold mb-7">
-                      <img class="img-fluid pr-2" width="40px" src="assets/dwarf forms/man.svg" alt="Card image cap">
-                      People
-                    </h3>
-
-                <!-- List group-->
-                <div class="list-group list-group-flush">
-
-                  <div class="list-group-item">
-                    
-                    <!-- Toggle -->
-                    <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                      <div class="mr-auto">
-                        
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Lorem Ipsum
-                        </p>
-
-                      </div>
-
-                    </a> <!-- / .row -->
-                    
-                  </div> <!-- item 1_1-->
-
-                  <div class="list-group-item">
-                    
-                    <!-- Toggle -->
-                    <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                      <div class="mr-auto">
-                        
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Lorem Ipsum
-                        </p>
-
-                      </div>
-
-                    </a> <!-- / .row -->
-                    
-                  </div> <!-- item 1_2-->
-
-                </div> <!-- List group-->                
-
-              </div> <!-- card body-->
-
-            </div> <!-- card-->
-          </div> <!-- card 1-->
-
-          <!-- Card 2-->          
-          <div class="col-12 col-md-5 col-lg-4 col-xl-6 mb-8 mb-lg-8 mb-md-8">
-            <div class="card accordion card-responsive shadow-light-lg lift lift-lg">
-              <div class="card-body">
-                    <!-- content -->
-                    <h3 class="font-weight-bold mb-7">
-                      <img class="img-fluid pr-2" width="40px" src="assets/dwarf forms/company.svg" alt="Card image cap">
+                    <h3 class=" text-primary font-weight-bold mb-8">
                       Companies
                     </h3>
 
@@ -310,7 +266,7 @@
                   <div class="list-group-item">
                     
                     <!-- Toggle -->
-                    <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#featuresOne" role="button" aria-expanded="false" aria-controls="featuresOne">
                       <div class="mr-auto">
                         
                         <!-- Title -->
@@ -320,14 +276,27 @@
 
                       </div>
 
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
                     </a> <!-- / .row -->
                     
+                    <!-- Collapse -->
+                    <div class="collapse " id="featuresOne" data-parent="#featuresAccordion">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+
                   </div> <!-- item 1_1-->
 
-                  <div class="list-group-item">
-                    
+                  <div class="list-group-item">                   
                     <!-- Toggle -->
-                    <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#com2" role="button" aria-expanded="false" aria-controls="com2">
                       <div class="mr-auto">
                         
                         <!-- Title -->
@@ -337,9 +306,53 @@
 
                       </div>
 
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
                     </a> <!-- / .row -->
                     
+                    <!-- Collapse -->
+                    <div class="collapse " id="com2" data-parent="#featuresAccordion">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                      </div>
+                    </div>
+
                   </div> <!-- item 1_2-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#com3" role="button" aria-expanded="false" aria-controls="com3">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="com3" data-parent="#featuresAccordion">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 1_3-->
 
                 </div> <!-- List group-->                
 
@@ -347,29 +360,431 @@
 
             </div> <!-- card-->
           </div> <!-- card 1-->
+
+          <!-- Card 2-->          
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-8 mb-md-8">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion2">
+              <div class="card-body">
+                    <!-- content -->
+                    <h3 class=" text-primary font-weight-bold mb-8">
+                      People
+                    </h3>
+
+                <!-- List group-->
+                <div class="list-group list-group-flush">
+
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#people1" role="button" aria-expanded="false" aria-controls="people1">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="people1" data-parent="#featuresAccordion2">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 2_1-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#people2" role="button" aria-expanded="false" aria-controls="people2">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="people2" data-parent="#featuresAccordion2">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 2_2-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#people3" role="button" aria-expanded="false" aria-controls="people3">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="people3" data-parent="#featuresAccordion2">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                      
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 2_3-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#people4" role="button" aria-expanded="false" aria-controls="people4">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="people4" data-parent="#featuresAccordion2">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.                      
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 2_4-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#people5" role="button" aria-expanded="false" aria-controls="people5">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="people5" data-parent="#featuresAccordion2">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 2_5-->
+
+                </div> <!-- List group-->                
+
+              </div> <!-- card body-->
+
+            </div> <!-- card-->
+          </div> <!-- card 2-->
+
+          <!-- Card 3-->          
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-8 mb-md-8">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion3">
+              <div class="card-body">
+                    <!-- content -->
+                    <h3 class=" text-primary font-weight-bold mb-8">
+                      Jobs
+                    </h3>
+
+                <!-- List group-->
+                <div class="list-group list-group-flush">
+
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#jobs1" role="button" aria-expanded="false" aria-controls="jobs1">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="jobs1" data-parent="#featuresAccordion3">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 3_1-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#jobs2" role="button" aria-expanded="false" aria-controls="jobs2">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="jobs2" data-parent="#featuresAccordion3">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 3_2-->
+
+                </div> <!-- List group-->                
+
+              </div> <!-- card body-->
+
+            </div> <!-- card-->
+          </div> <!-- card 2-->
+
+          <!-- Card 4-->          
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-0 mb-md-8">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion4">
+              <div class="card-body">
+                    <!-- content -->
+                    <h3 class=" text-primary font-weight-bold mb-8">
+                      Contact
+                    </h3>
+
+                <!-- List group-->
+                <div class="list-group list-group-flush">
+
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#con1" role="button" aria-expanded="false" aria-controls="con1">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="con1" data-parent="#featuresAccordion4">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 3_1-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#con2" role="button" aria-expanded="false" aria-controls="con2">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="con2" data-parent="#featuresAccordion4">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 3_2-->
+
+                  <div class="list-group-item">                   
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#con3" role="button" aria-expanded="false" aria-controls="con3">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Lorem Ipsum
+                        </p>
+
+                      </div>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse " id="con3" data-parent="#featuresAccordion4">
+                      <div class="pt-6">
+                        <p class="text-muted">
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div> <!-- item 1_3-->
+
+                </div> <!-- List group-->                
+
+              </div> <!-- card body-->
+
+            </div> <!-- card-->
+          </div> <!-- card 4-->
+
+          <!-- Card 5-->          
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-0 mb-md-0">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion5">
+              <div class="card-body">
+                <!-- content -->
+                <h3 class=" text-primary font-weight-bold mb-8">
+                  Costumers
+                </h3>
+                <span class="badge badge-pill badge-info-soft mb-3">
+                <span class="h6 text-uppercase">Coming soon!</span>
+                </span>
+            </div>
+            </div>
+          </div> <!-- card 5-->
+
+          <!-- Card 6-->          
+          <div class="col-12 col-md-5 col-lg-4 col-xl-2 mb-8 mb-lg-0 mb-md-0">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion6">
+              <div class="card-body">
+                <!-- content -->
+                <h3 class=" text-primary font-weight-bold mb-8">
+                  Salary
+                </h3>
+                <span class="badge badge-pill badge-info-soft mb-3">
+                <span class="h6 text-uppercase">Coming soon!</span>
+                </span>
+            </div>
+            </div>
+          </div> <!-- card 6-->     
+
         </div> <!-- row-->
 
         <div class="row justify-content-center text-center">
-          <div class="col-10 mt-4 mt-md-0 mb-0 mb-md-0">
-            <a class="col-12 col-sm-2 col-md-4 col-lg-3 col-xl-3 btn btn-primary btn-lg  mr-md-3 mb-4 mb-md-0" href="#" target="blank">
+          <div class="col-10 mt-4 mt-md-0 mb-4 mb-0 mb-md-8">
+            <a class="col-12 col-sm-2 col-md-4 col-lg-3 col-xl-2 btn btn-primary btn-lg  mr-md-3 mb-4 mb-md-0" href="#" target="blank">
               Get API Key
             </a>
-            <a class="col-12 col-sm-2 col-md-4 col-lg-3 col-xl-3 btn btn-primary-soft btn-lg" href="#" target="blank">
+            <a class="col-12 col-sm-2 col-md-4 col-lg-3 col-xl-2 btn btn-primary-soft btn-lg" href="#" target="blank">
               View API Docs
             </a>
           </div>
         </div> <!-- Button-->
 
-      </div> <!-- / .container -->    
-    </section>
-    
-    <section class="border-bottom">
+      </div> <!-- / .container -->
 
-      <div class="container pb-8 pb-md-0">
+      <div class="container pt-4 pb-8 pb-md-10">
         <div class="row justify-content-center">
 
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h1 class="font-weight-bold">
+              Our customers
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              We partner with organizations large and small to transform their product with big data
+            </p>
+
+          </div>
+
           <div class="container">
-            <div class="row align-items-center justify-content-center px-4 px-md-0 pb-0 pb-xl-4 pt-0 pt-xl-4">
+            <div class="row align-items-center justify-content-center px-4 px-md-0 pb-0 pb-xl-10">
 
                 <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
@@ -417,8 +832,8 @@
           </div> <!-- / .container -->
 
         </div> <!-- / .row -->
-      </div> <!-- / .container CUSTOMERS-->
-
+      </div> <!-- / .container -->
+    
     </section>
     
     <!-- SECOND FOLD-->
