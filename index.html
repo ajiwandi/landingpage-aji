@@ -216,7 +216,7 @@
 
     <!-- FIRST FOLD
     ================================================== -->
-    <section class="pt-8 pt-md-9 pb-10 pb-md-12 bg-primary">
+    <section class="pt-8 pt-md-9 pb-10 pb-md-12 bg-light">
 
       <!-- Content heading -->
       <div class="container">
@@ -225,10 +225,10 @@
           <div class="col-12 col-md-11 text-center">
             
             <!-- Heading -->
-            <h1 class="display-2 font-weight-bold mb-6 text-white">
-            Pull <span class="text-white">fresh people and company data </span> with Proxycurl API
+            <h1 class="display-2 font-weight-bold mb-6 text-black">
+            Pull <span class="text-primary">fresh people and company data </span> with Proxycurl API
             </h1>
-            <h4 class="text-gray-400 px-0 px-lg-9">Pull fresh and processed data without worrying about scaling a web scraping team, cleaning data, or compliance, so you can focus on building data-driven applications.
+            <h4 class="text-muted px-0 px-lg-9">Pull fresh and processed data without worrying about scaling a web scraping team, cleaning data, or compliance, so you can focus on building data-driven applications.
             </h4>
           </div>
         </div> <!-- / .row -->
@@ -236,13 +236,13 @@
 
     </section>
     
-    <section class="mt-n9 ">
+    <section class="mt-n8 ">
       <div class="container mb-8 mb-xl-8">
         <div class="row justify-content-center mb-0 mb-md-0">
           
           <!-- Card 1-->          
           <div class="col-12 col-md-5 col-lg-4 col-xl-6 mb-8 mb-lg-8 mb-md-8">
-            <div class="card card-responsive shadow-light-lg lift lift-lg">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion">
               <div class="card-body">
                     <!-- content -->
                     <h3 class="font-weight-bold mb-7">
@@ -253,8 +253,8 @@
                   <!-- List group-->
                   <div class="list-group list-group-flush">
 
-                    <div class="list-group-item ">
-                      
+                    <div class="list-group-item">
+                    
                       <!-- Toggle -->
                       <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
                         <div class="mr-auto">
@@ -263,44 +263,88 @@
                           <p class="font-weight-bold mb-0">
                             Name
                           </p>
-
+  
                         </div>
-
+  
                       </a> <!-- / .row -->
                       
                     </div> <!-- item 1_1-->
-
-                    <div class="list-group-item">                      
-                    <!-- Toggle -->
+  
+                    <div class="list-group-item">
+                      
+                      <!-- Toggle -->
                       <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
                         <div class="mr-auto">
                           
                           <!-- Title -->
                           <p class="font-weight-bold mb-0">
-                            Job title
+                            Job Title
                           </p>
-
+  
                         </div>
-
-                      </a> <!-- / .row -->                      
+  
+                      </a> <!-- / .row -->
+                      
                     </div> <!-- item 1_2-->
 
-                    <div class="list-group-item blur">                      
-                      <!-- Toggle -->
-                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                          <div class="mr-auto">
-                            
-                            <!-- Title -->
-                            <p class="font-weight-bold mb-0">
-                              Skills
-                            </p>
-  
-                          </div>
-  
-                        </a> <!-- / .row -->                      
-                    </div> <!-- item 1_3-->
+                    <div class="list-group-item">
+                      <div class="collapse blur" id="featuresOne" data-parent="#featuresAccordion">
 
-                  </div> <!-- List group-->                
+                        <div class="border-bottom ">
+                      
+                            <!-- Toggle -->
+                            <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                              <div class="mr-auto">
+                                
+                                <!-- Title -->
+                                <p class="font-weight-bold pb-1">
+                                  Skills
+                                </p>
+        
+                              </div>
+        
+                            </a> <!-- / .row -->
+                            
+                        </div> <!-- item 1_3-->
+
+                        <div class="border-bottom mb-2">
+                      
+                          <!-- Toggle -->
+                          <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                            <div class="mr-auto">
+                              
+                              <!-- Title -->
+                              <p class="font-weight-bold pb-1 pt-5">
+                                Company Name
+                              </p>
+      
+                            </div>
+      
+                          </a> <!-- / .row -->
+                          
+                        </div> <!-- item 1_4-->                        
+
+                      </div>
+
+                      <!-- Toggle -->
+                      <a class="text-center" data-toggle="collapse" href="#featuresOne" role="button" aria-expanded="false" aria-controls="featuresOne">
+                        <div class="mr-auto">
+                          
+                        <!-- Chevron -->
+                        <span class="collapse-chevron btn btn-white btn-rounded-circle shadow shadow-light text-primary">
+                          <i class="fe fe-lg fe-chevron-down"></i>
+                        </span>
+  
+                        </div>
+  
+
+  
+                      </a> <!-- / .row -->                      
+                      <!-- Collapse -->
+                      
+                    </div>
+  
+                  </div> <!-- item 1_1-->               
 
               </div> <!-- card body-->
 
@@ -311,7 +355,15 @@
 
                 <!-- card 1_1-->                
                 <div class="col-12 col-md-12 col-lg-12 col-xl-6 mb-6 mb-md-0">
-                  <div class="card card-responsive shadow-light-lg lift lift-lg">
+                  <div class="col-12 text-center mb-6">
+            
+                    <!-- arrow -->
+                    <a class="text-muted">
+                      <i class="fe fe-arrow-down" style="font-size: 24px;"></i>
+                    </a>
+        
+                  </div>
+                  <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion_contact">
                     <div class="card-body">
                     <!-- content -->
 
@@ -322,58 +374,82 @@
                     
                     <!-- List group-->
                     <div class="list-group list-group-flush">
-                      <div class="list-group-item">
-                    
-                        <!-- Toggle -->
-                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
-                        
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Personal Email
-                        </p>
-
-                        </div>
-
-                    </a> <!-- / .row -->
-                    
-                      </div> <!-- item 1_1-->
 
                       <div class="list-group-item">
-                    
+                      
                         <!-- Toggle -->
                         <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
-                        
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Mobile number
-                        </p>
-
-                        </div>
-
-                    </a> <!-- / .row -->
-                    
-                      </div> <!-- item 1_2-->
-
-                      <div class="list-group-item blur">
-                    
-                        <!-- Toggle -->
-                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
-                        
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Work email
-                        </p>
-
-                        </div>
-
+                          <div class="mr-auto">
+                            
+                            <!-- Title -->
+                            <p class="font-weight-bold mb-0">
+                              Personal Email
+                            </p>
+    
+                          </div>
+    
                         </a> <!-- / .row -->
-                    
-                      </div> <!-- item 1_3-->
-
-                    </div> <!-- List group--> 
+                        
+                      </div> <!-- item 1_1-->
+    
+                      <div class="list-group-item">
+                        
+                        <!-- Toggle -->
+                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                          <div class="mr-auto">
+                            
+                            <!-- Title -->
+                            <p class="font-weight-bold mb-0">
+                              Mobile Number
+                            </p>
+    
+                          </div>
+    
+                        </a> <!-- / .row -->
+                        
+                      </div> <!-- item 1_2-->
+  
+                      <div class="list-group-item">
+                        <div class="collapse blur" id="featurescontact" data-parent="#featuresAccordion_contact">
+    
+                          <div class="border-bottom mb-2">
+                        
+                            <!-- Toggle -->
+                            <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                              <div class="mr-auto">
+                                
+                                <!-- Title -->
+                                <p class="font-weight-bold pb-1 pt-5">
+                                  Work Email
+                                </p>
+        
+                              </div>
+        
+                            </a> <!-- / .row -->
+                            
+                          </div> <!-- item 1_3-->                        
+  
+                        </div>
+  
+                        <!-- Toggle -->
+                        <a class="text-center" data-toggle="collapse" href="#featurescontact" role="button" aria-expanded="false" aria-controls="featurescontact">
+                          <div class="mr-auto">
+                            
+                          <!-- Chevron -->
+                          <span class="collapse-chevron btn btn-white btn-rounded-circle shadow shadow-light text-primary">
+                            <i class="fe fe-lg fe-chevron-down"></i>
+                          </span>
+    
+                          </div>
+    
+  
+    
+                        </a> <!-- / .row -->                      
+                        <!-- Collapse -->
+                        
+                      </div>
+    
+                    </div> <!-- item 1_1-->
                     
                   </div> <!-- card-body-->
                   </div>
@@ -381,7 +457,15 @@
 
                 <!-- card 1_2-->
                 <div class="col-12 col-md-6 ">
-                  <div class="card card-responsive shadow-light-lg lift lift-lg">
+                  <div class="col-12 text-center mb-6">
+            
+                    <!-- arrow -->
+                    <a class="text-muted">
+                      <i class="fe fe-arrow-down" style="font-size: 24px;"></i>
+                    </a>
+        
+                  </div>                  
+                  <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion_salary">
                     <div class="card-body">
                     <!-- content -->
 
@@ -392,58 +476,82 @@
                     
                     <!-- List group-->
                     <div class="list-group list-group-flush">
+
                       <div class="list-group-item">
-                    
+                      
                         <!-- Toggle -->
                         <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
+                          <div class="mr-auto">
+                            
+                            <!-- Title -->
+                            <p class="font-weight-bold mb-0">
+                              Amount
+                            </p>
+    
+                          </div>
+    
+                        </a> <!-- / .row -->
                         
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Amount
-                        </p>
-
-                        </div>
-
-                    </a> <!-- / .row -->
-                    
                       </div> <!-- item 1_1-->
-
-                    <div class="list-group-item">
-                      
-                      <!-- Toggle -->
-                      <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
-                          
-                          <!-- Title -->
-                          <p class="font-weight-bold mb-0">
-                            Past Salary
-                          </p>
-
+    
+                      <div class="list-group-item">
+                        
+                        <!-- Toggle -->
+                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                          <div class="mr-auto">
+                            
+                            <!-- Title -->
+                            <p class="font-weight-bold mb-0">
+                              Past Salary
+                            </p>
+    
+                          </div>
+    
+                        </a> <!-- / .row -->
+                        
+                      </div> <!-- item 1_2-->
+  
+                      <div class="list-group-item">
+                        <div class="collapse blur" id="featuressalary" data-parent="#featuresAccordion_salary">
+    
+                          <div class="border-bottom mb-2">
+                        
+                            <!-- Toggle -->
+                            <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                              <div class="mr-auto">
+                                
+                                <!-- Title -->
+                                <p class="font-weight-bold pb-1 pt-5">
+                                  Lorem Ipsum
+                                </p>
+        
+                              </div>
+        
+                            </a> <!-- / .row -->
+                            
+                          </div> <!-- item 1_3-->                        
+  
                         </div>
-
-                      </a> <!-- / .row -->
-                      
+  
+                        <!-- Toggle -->
+                        <a class="text-center" data-toggle="collapse" href="#featuressalary" role="button" aria-expanded="false" aria-controls="featuressalary">
+                          <div class="mr-auto">
+                            
+                          <!-- Chevron -->
+                          <span class="collapse-chevron btn btn-white btn-rounded-circle shadow shadow-light text-primary">
+                            <i class="fe fe-lg fe-chevron-down"></i>
+                          </span>
+    
+                          </div>
+    
+  
+    
+                        </a> <!-- / .row -->                      
+                        <!-- Collapse -->
+                        
+                      </div>
+    
                     </div> <!-- item 1_2-->
-
-                    <div class="list-group-item blur">
-                      
-                      <!-- Toggle -->
-                      <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
-                        <div class="mr-auto">
-                          
-                          <!-- Title -->
-                          <p class="font-weight-bold mb-0">
-                            Lorem Ipsum
-                          </p>
-
-                        </div>
-
-                      </a> <!-- / .row -->
-                      
-                    </div> <!-- item 1_3-->                    
-
-                    </div> <!-- List group--> 
                     
                     </div> <!-- card-body-->
                   </div>
@@ -455,7 +563,7 @@
 
           <!-- Card 2-->          
           <div class="col-12 col-md-5 col-lg-4 col-xl-6 mb-8 mb-lg-8 mb-md-8">
-            <div class="card accordion card-responsive shadow-light-lg lift lift-lg">
+            <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion2">
               <div class="card-body">
                     <!-- content -->
                     <h3 class="font-weight-bold mb-7">
@@ -467,7 +575,7 @@
                 <div class="list-group list-group-flush">
 
                   <div class="list-group-item">
-                    
+                  
                     <!-- Toggle -->
                     <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
                       <div class="mr-auto">
@@ -500,25 +608,64 @@
                     
                   </div> <!-- item 1_2-->
 
-                  <div class="list-group-item blur">
+                  <div class="list-group-item">
+                    <div class="collapse blur" id="features2" data-parent="#featuresAccordion2">
+
+                      <div class="border-bottom ">
                     
+                          <!-- Toggle -->
+                          <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                            <div class="mr-auto">
+                              
+                              <!-- Title -->
+                              <p class="font-weight-bold pb-1">
+                                Company Type
+                              </p>
+      
+                            </div>
+      
+                          </a> <!-- / .row -->
+                          
+                      </div> <!-- item 1_3-->
+
+                      <div class="border-bottom mb-2">
+                    
+                        <!-- Toggle -->
+                        <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                          <div class="mr-auto">
+                            
+                            <!-- Title -->
+                            <p class="font-weight-bold pb-1 pt-5">
+                              Industry
+                            </p>
+    
+                          </div>
+    
+                        </a> <!-- / .row -->
+                        
+                      </div> <!-- item 1_4-->                        
+
+                    </div>
+
                     <!-- Toggle -->
-                    <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                    <a class="text-center" data-toggle="collapse" href="#features2" role="button" aria-expanded="false" aria-controls="features2">
                       <div class="mr-auto">
                         
-                        <!-- Title -->
-                        <p class="font-weight-bold mb-0">
-                          Industry
-                        </p>
+                      <!-- Chevron -->
+                      <span class="collapse-chevron btn btn-white btn-rounded-circle shadow shadow-light text-primary">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
 
                       </div>
 
-                    </a> <!-- / .row -->
+
+
+                    </a> <!-- / .row -->                      
+                    <!-- Collapse -->
                     
-                  </div> <!-- item 1_3-->
+                  </div>
 
-                </div> <!-- List group-->                
-
+                </div> <!-- item 1_1-->  
               </div> <!-- card body-->
 
             </div> <!-- card-->
@@ -528,7 +675,15 @@
 
               <!-- card 2_1-->                
               <div class="col-12 col-md-6 mb-6 mb-md-0">
-                <div class="card card-responsive shadow-light-lg lift lift-lg ">
+                <div class="col-12 text-center mb-6">
+            
+                  <!-- arrow -->
+                  <a class="text-muted">
+                    <i class="fe fe-arrow-down" style="font-size: 24px;"></i>
+                  </a>
+      
+                </div>                
+                <div class="card accordion card-responsive shadow-light-lg lift lift-lg" id="featuresAccordion_jobs">
                   <div class="card-body ">
                   <!-- content -->
 
@@ -539,23 +694,24 @@
                   
                   <!-- List group-->
                   <div class="list-group list-group-flush">
-                    <div class="list-group-item ">
-                  
+
+                    <div class="list-group-item">
+                    
                       <!-- Toggle -->
-                    <a class=" align-items-center text-decoration-none text-primary" href="#" role="button">
-                      <div class="mr-auto">
+                      <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                        <div class="mr-auto">
+                          
+                          <!-- Title -->
+                          <p class="font-weight-bold mb-0">
+                            Company
+                          </p>
+  
+                        </div>
+  
+                      </a> <!-- / .row -->
                       
-                      <!-- Title -->
-                      <p class="font-weight-bold mb-0 ">
-                        Lorem Ipsum
-                      </p>
-
-                      </div>
-
-                    </a> <!-- / .row -->
-                  
-                    </div> <!-- item 2_1-->
-
+                    </div> <!-- item 1_1-->
+  
                     <div class="list-group-item">
                       
                       <!-- Toggle -->
@@ -564,33 +720,73 @@
                           
                           <!-- Title -->
                           <p class="font-weight-bold mb-0">
-                            Lorem Ipsum
+                            Title
                           </p>
-
+  
                         </div>
-
+  
                       </a> <!-- / .row -->
                       
-                    </div> <!-- item 2_2-->
-
-                    <div class="list-group-item blur">
+                    </div> <!-- item 1_2-->
+  
+                    <div class="list-group-item">
+                      <div class="collapse blur" id="featuresjobs" data-parent="#featuresAccordion_jobs">
+  
+                        <div class="border-bottom ">
                       
+                            <!-- Toggle -->
+                            <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                              <div class="mr-auto">
+                                
+                                <!-- Title -->
+                                <p class="font-weight-bold pb-1">
+                                  Location
+                                </p>
+        
+                              </div>
+        
+                            </a> <!-- / .row -->
+                            
+                        </div> <!-- item 1_3-->
+  
+                        <div class="border-bottom mb-2">
+                      
+                          <!-- Toggle -->
+                          <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                            <div class="mr-auto">
+                              
+                              <!-- Title -->
+                              <p class="font-weight-bold pb-1 pt-5">
+                                Industry
+                              </p>
+      
+                            </div>
+      
+                          </a> <!-- / .row -->
+                          
+                        </div> <!-- item 1_4-->                        
+  
+                      </div>
+  
                       <!-- Toggle -->
-                      <a class="align-items-center text-decoration-none text-primary" href="#" role="button">
+                      <a class="text-center" data-toggle="collapse" href="#featuresjobs" role="button" aria-expanded="false" aria-controls="featuresjobs">
                         <div class="mr-auto">
                           
-                          <!-- Title -->
-                          <p class="font-weight-bold mb-0">
-                            Lorem Ipsum
-                          </p>
-
+                        <!-- Chevron -->
+                        <span class="collapse-chevron btn btn-white btn-rounded-circle shadow shadow-light text-primary">
+                          <i class="fe fe-lg fe-chevron-down"></i>
+                        </span>
+  
                         </div>
-
-                      </a> <!-- / .row -->
+  
+  
+  
+                      </a> <!-- / .row -->                      
+                      <!-- Collapse -->
                       
-                    </div> <!-- item 2_3-->                    
-
-                  </div> <!-- List group--> 
+                    </div>
+  
+                  </div> <!-- item 1_1-->  
                   
                   </div> <!-- card-body-->
                 </div>
@@ -598,6 +794,14 @@
 
               <!-- card 2_2-->
               <div class="col-12 col-md-6">
+                <div class="col-12 text-center mb-6">
+            
+                  <!-- arrow -->
+                  <a class="text-muted">
+                    <i class="fe fe-arrow-down" style="font-size: 24px;"></i>
+                  </a>
+      
+                </div>                
                 <div class="card card-responsive shadow-light-lg lift lift-lg">
                   <div class="card-body pb-14">
                   <!-- content -->
@@ -608,7 +812,7 @@
                   </h3>      
                   
                   <!-- List group-->
-                  <div class="list-group list-group-flush">
+                  <div class="list-group list-group-flush pt-4">
                     <div class="list-group-item ">
                   
                       <!-- Toggle -->
